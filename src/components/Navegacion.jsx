@@ -1,5 +1,6 @@
 import React from 'react'
 import { MdHive } from "react-icons/md";
+import BackgroundParticles from './BackgroundParticles';
 
 
 function Navegacion() {
@@ -26,10 +27,30 @@ function Navegacion() {
         </div>
       </nav>
     </header>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum maxime labore nisi iste perspiciatis excepturi quidem earum neque culpa pariatur blanditiis voluptate molestias aliquid debitis temporibus possimus, qui, tenetur provident quibusdam autem recusandae dolorum. Reprehenderit omnis recusandae totam qui? Deleniti fuga iste adipisci unde, cupiditate dolorum libero pariatur. Adipisci porro molestiae, quam dolorem iusto cumque, dolores culpa eligendi molestias ipsam, natus eius veritatis nam eaque harum assumenda tempore tempora qui vel? Architecto, veniam deleniti consequatur quisquam quod quae in! Pariatur velit vel voluptatum sed recusandae nostrum, itaque facilis ducimus earum dolore ipsa saepe voluptatibus dignissimos aut. Modi nihil eligendi magnam accusamus quis? Suscipit tenetur reprehenderit facere in asperiores veritatis blanditiis quae reiciendis quia dignissimos necessitatibus excepturi cum sunt eum distinctio, ad dicta pariatur sapiente minima quam enim ullam cupiditate! Dolorem facilis et vitae repellat rerum aspernatur ex ea delectus alias nobis nihil quia, voluptates recusandae accusamus, culpa ratione corrupti, dolores consectetur expedita in ipsa praesentium. Modi rem tempora alias voluptatibus accusamus veniam sequi illum enim. Cupiditate eveniet asperiores veritatis maxime ab quae minus amet unde ad earum! Dolor dicta obcaecati hic, sapiente eveniet, vel tenetur suscipit voluptatem in error praesentium fugit provident iure porro eum unde illo nesciunt amet cupiditate.</div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Laborum maxime labore nisi iste perspiciatis excepturi quidem earum 
+      neque culpa pariatur blanditiis voluptate molestias aliquid debitis 
+      temporibus possimus, qui, tenetur provident quibusdam autem recusandae
+       dolorum. Reprehenderit omnis recusandae totam qui? Deleniti fuga iste 
+       adipisci unde, cupiditate dolorum libero pariatur. Adipisci porro molestiae, 
+       quam dolorem iusto cumque, dolores culpa eligendi molestias ipsam, natus eius
+        veritatis nam eaque harum assumenda tempore tempora qui vel? Architecto, veniam 
+        deleniti consequatur quisquam quod quae in! Pariatur velit vel voluptatum sed
+         recusandae nostrum, itaque facilis ducimus earum dolore ipsa saepe voluptatibus 
+         dignissimos aut. Modi nihil eligendi magnam accusamus quis? Suscipit tenetur 
+         reprehenderit facere in asperiores veritatis blanditiis quae reiciendis quia 
+         dignissimos necessitatibus excepturi cum sunt eum distinctio, ad dicta pariatur
+          sapiente minima quam enim ullam cupiditate! Dolorem facilis et vitae repellat
+           rerum aspernatur ex ea delectus alias nobis nihil quia, voluptates recusandae
+            accusamus, culpa ratione corrupti, dolores consectetur expedita in ipsa 
+            praesentium. Modi rem tempora alias voluptatibus accusamus veniam sequi 
+            illum enim. Cupiditate eveniet asperiores veritatis maxime ab quae minus 
+            amet unde ad earum! Dolor dicta obcaecati hic, sapiente eveniet, vel tenetur 
+            suscipit voluptatem in error praesentium fugit provident iure porro eum unde 
+          illo nesciunt amet cupiditate.</div>
     <img src="" alt="" />
+    <BackgroundParticles></BackgroundParticles>
     </div>
-    
     
     
     </>
