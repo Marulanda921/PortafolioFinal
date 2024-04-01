@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+    },
+    fontFamily: {
+      "Monoplex": ["Playfair Display", "serif"],
+      "Textos": ["Kanit", "sans-serif"]
+    },
+
   },
   plugins: [
     require('tailwindcss-animated')
