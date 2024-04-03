@@ -1,62 +1,77 @@
 import React from 'react'
 import { AiFillCodeSandboxCircle } from "react-icons/ai";
+import { BiAtom } from "react-icons/bi";
+import mudame from "./Img/mudame.png"
+import { IoCodeSlashOutline } from "react-icons/io5";
+
+
+
+
+
 
 
 function Proyects() {
   return (
-   <div className='h-screen w-full bg-zinc-950 p-10 pt-10 md:flex md:gap-6'>
-    <div className='h-1/ w-full p-3 bg-white rounded-[20px] bg-gradient-to-r from-zinc-900 to-zinc-800 mb-5 pb-10'>
+   <div className='h-screen w-full bg-zinc-950 p-10 pt-5 md:flex md:gap-6'>
+    <div className='h-1/2 bg-black rounded-[20px] z-0'>
+    <div className='h-full w-full p-3 rounded-[20px] bg-gradient-to-r from-zinc-800/90 to-zinc-900/30 pb-2 mb-5 z-10'>
         <div className='h-1/2 w-full rounded-2xl'>
-            <img  className='w-full h-full rounded-2xl' src="https://images5.alphacoders.com/131/thumb-350-1315108.jpeg" alt="" />
+            <img  className='w-full h-full rounded-2xl bg-cover' src={mudame} alt="" />
         </div>
-        <div className='w-full pt-5 pb-4 flex items-center justify-center'>
-            <h1 className='font-Textos text-white font-bold text-2xl'>MUDAME</h1>
+        <div className='w-full pt-3 pb-5 flex items-center justify-center'>
+            <h1 className='font-Textos pt-4 text-white font-bold text-2xl'>MUDAME</h1>
         </div>
-        <div className='w-full h-10 flex items-center justify-center gap-6'>
+        <div className='w-full h-10 flex justify-center gap-6'>
             <div className='w-10 h-full items-center'>
-            <img  className='w-full h-full rounded-[20px]' src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="" />
+            <img  className='w-full h-full rounded-[20px]' src="https://files.raycast.com/nwt9ncojkvwmjfkaada8upafvpnu" alt="" />
             </div>
             <div className='w-10 h-full items-center'>
             <img  className='w-full h-full rounded-[20px]' src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="" />
             </div>
             <div className='w-10 h-full items-center'>
-            <img  className='w-full h-full rounded-[20px]' src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="" />
+            <img  className='w-full h-full rounded-[20px]' src="https://examples.javacodegeeks.com/wp-content/uploads/2012/12/json-logo.jpg" alt="" />
             </div>
             
         </div>
         <div className='h-5 w-full flex justify-center items-center'>
-                <button className='w-full text-white mt-11 flex justify-center font-Textos font-bold'>
-                <AiFillCodeSandboxCircle className='text-5xl hover:text-blue-400 justify-center text-blue-800 animate-spin animate-infinite animate-duration-[5000ms]' />
-
+                <button className='w-1/6 bg-zinc-700/50 rounded-2xl text-white mt-16 flex justify-center font-Textos font-bold'>
+                <IoCodeSlashOutline 
+className='text-4xl hover:text-red-900 justify-center  text-emerald-500' />
                 </button>
             </div>
+            </div>
     </div>
 
+
     
-    <div className='h-1/2 w-full p-3 bg-white rounded-[20px] bg-gradient-to-r from-neutral-800 to-zinc-950 mb-5 pb-10'>
-        <div className='h-2/3 w-full rounded-2xl'>
-            <img  className='w-full h-full rounded-2xl' src="https://images5.alphacoders.com/131/thumb-350-1315108.jpeg" alt="" />
+    <div className='h-1/2 bg-black rounded-[20px]'>
+    <div className='h-full w-full p-3 rounded-[20px] bg-gradient-to-r from-zinc-800/90 to-zinc-900/30 pb-2 mb-5'>
+        <div className='h-1/2 w-full rounded-2xl'>
+            <img  className='w-full h-full rounded-2xl bg-cover' src={mudame} alt="" />
         </div>
-        <div className='w-full p-3 flex items-center justify-center'>
-            <h1 className='font-Textos text-white font-bold text-xl'>MUDAME</h1>
+        <div className='w-full pt-3 pb-5 flex items-center justify-center'>
+            <h1 className='font-Textos pt-4 text-white font-bold text-2xl'>MUDAME</h1>
         </div>
-        <div className='w-full h-10 flex items-center justify-center gap-4'>
+        <div className='w-full h-10 flex justify-center gap-6'>
             <div className='w-10 h-full items-center'>
-            <img  className='w-full h-full rounded-[20px]' src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="" />
+            <img  className='w-full h-full rounded-[20px]' src="https://files.raycast.com/nwt9ncojkvwmjfkaada8upafvpnu" alt="" />
             </div>
             <div className='w-10 h-full items-center'>
             <img  className='w-full h-full rounded-[20px]' src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="" />
             </div>
             <div className='w-10 h-full items-center'>
-            <img  className='w-full h-full rounded-[20px]' src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="" />
+            <img  className='w-full h-full rounded-[20px]' src="https://examples.javacodegeeks.com/wp-content/uploads/2012/12/json-logo.jpg" alt="" />
             </div>
+            
         </div>
-        <div className='h-5'>
-                <button className='w-full text-white p-6'>INGRESAR</button>
+        <div className='h-5 w-full flex justify-center items-center'>
+                <button className='w-1/6 bg-zinc-700/50 rounded-2xl mt-16 flex justify-center font-Textos font-bold hover:shadow-lg hover:shadow-white/20'>
+                <IoCodeSlashOutline 
+className='text-4xl hover:text-white justify-center text-emerald-500' />
+                </button>
+            </div>
             </div>
     </div>
-    
-        
    </div>
   )
 }
