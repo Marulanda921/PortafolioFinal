@@ -1,9 +1,10 @@
 import React from 'react'
+import { MdOpacity } from 'react-icons/md'
 
 function Services() {
   return (
 
-<div class="h-screen p-5 justify-center bg-zinc-950 overflow-y-scroll scroll-smooth scrollbar-thumb-blue md:flex md:justify-center md:items-center md:flex-wrap md:p-10">
+<div class="h-screen p-5 justify-center bg-zinc-950 overflow-y-scroll scroll-smooth scrollbar-thumb-blue md:flex md:justify-center md:items-center md:flex-wrap md:p-10 bg-fixed bg-cover bg-center bg-opacity-5" style={{backgroundImage: `url(https://images7.alphacoders.com/133/1337527.png)`}}>
 
   <div className='h-1/2 pb-10 md:p-10'>
   <card class="relative h-[30rem] sm:h-96 w-[35rem] rounded-xl">

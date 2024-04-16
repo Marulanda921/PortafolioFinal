@@ -9,7 +9,8 @@ export default {
     },
     fontFamily: {
       "Monoplex": ["Playfair Display", "serif"],
-      "Textos": ["Kanit", "sans-serif"]
+      "Textos": ["Kanit", "sans-serif"],
+      "Play": ["Play", "sans-serif"]
     },
 
   },

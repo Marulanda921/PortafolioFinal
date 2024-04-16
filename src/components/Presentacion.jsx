@@ -1,12 +1,13 @@
 import React from 'react'
 import Spline2 from './Spline2'
+import fondos from "./Img/fondos.jpg"
 
 
 
 
 function Presentacion() {
   return (
-    <div className='w-full h-screen bg-zinc-950 z-10 p-3 pt-10 md:flex items-center '>
+    <div className='w-full h-screen bg-slate-200 z-10 p-3 pt-10 md:flex items-center '>
         <div className=' w-full h-1/4 flex justify-center items-center p-5'>
             <img className='w-2/3' src="https://th.bing.com/th/id/R.353566206b0aaee9ec533fdc40e4cf15?rik=Gdfi%2fLdJ23tOPA&riu=http%3a%2f%2fwww.clubcomercial.es%2fwp-content%2fuploads%2f2015%2f05%2ffoto-redonda.png&ehk=1h%2fQPdGikr7hhG4v85Iq0d53rsoWf2vkCMd%2bRH%2bOm38%3d&risl=&pid=ImgRaw&r=0" alt="" />
         </div>

@@ -6,11 +6,11 @@ const MiComponente = () => {
   useEffect(() => {
     const canvas = document.getElementById('canvas3d');
     const app = new Application(canvas);
-    app.load('https://prod.spline.design/Q7zHYNuJ9qRupRBk/scene.splinecode');
+    app.load('https://prod.spline.design/yWZo-oaPycwlJ17E/scene.splinecode');
   }, []);
 
   return (
-    <div className=' h-3/4 items-center md:h-screen transition-all shadow-2xl shadow-slate-700'>
+    <div className=' h-3/4 items-center md:w-full md:h-screen transition-all'>
       <canvas id="canvas3d" />
     </div>
   );

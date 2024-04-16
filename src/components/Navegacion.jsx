@@ -1,14 +1,15 @@
 import React from 'react'
 import { MdHive } from "react-icons/md";
-import Presentacion from './Presentacion';
+//import Presentacion from './Presentacion';
 import Spline from './Spline';
 import Services from './Services';
 import Proyects from './Proyects';
 import Contact from './Contact';
+import logo from "./Img/logotico.png"
 
 
 
-
+ 
 function Navegacion() {
   //Logica del proyecto
   const pulsarMenu = ()=>{
@@ -18,11 +19,11 @@ function Navegacion() {
 
   return (
     <>
-    <div className='h-screen w-full bg-black font-Monoplex scroll-smooth'>
+    <div className='h-screen w-full bg-slate-50 font-Monoplex scroll-smooth'>
     <header className=''>
-      <nav className='w-full h-20 bg-zinc-950 shadow-2xl'>
+      <nav className='w-full h-20 bg-gradient-to-r from-blue-600 to-pink-600 shadow-2xl'>
         <div className='w-full h-full flex gap-4 justify-center items-center'>
-          <img className='h-3/5 ' src="https://www.pngmart.com/files/22/Porsche-Carrera-GT-PNG-Isolated-Photo.png" alt="" srcset="" />
+          <img className='h-full' src={logo} alt="" srcset="" />
           <div className='h-full w-1/6 flex items-center justify-center lg:hidden hover:bg-black/10 rounded-2xl shadow-lg shadow-violet-900/40 '>
           <MdHive onClick={()=>{pulsarMenu()}} className='text-5xl text-violet-900 animate-spin animate-infinite animate-duration-[4000ms] animate-delay-[2000ms] animate-ease-in-out cursor-pointer hover:text-white transition-colors' />
           </div>
@@ -42,8 +43,19 @@ function Navegacion() {
       </nav>
     </header>
     <div className='w-full h-screen'>
-    <Spline></Spline>
-    <Presentacion></Presentacion>
+      <div className='w-full h-screen grid grid-cols-2'>
+        <div className='w-full flex items-center justify-center h-full bg-white'>
+          <div className='w-full p-20'>
+          <h1 className='text-3xl font-Play font-bold text-slate-900'>¡Hola! Soy<h1 className='text-5xl font-Play text-pink-600 '>Alejandro Marulanda</h1></h1>
+          <h1 className='text-7xl font-Play font-bold text-slate-900'>Desarrollador de Software</h1>
+          <h1 className='text-2xl font-Play text-blue-600'>Estoy emocionado de compartir contigo una muestra de mi trabajo</h1>
+          </div>
+          
+        </div>
+        <div className='w-full h-full bg-slate-300'>
+        <Spline></Spline>
+        </div>
+      </div>
     <Services></Services>
     <Proyects></Proyects>
     <Contact></Contact>
